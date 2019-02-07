@@ -3,7 +3,10 @@ import java.util.Scanner;
 // Louis Sze
 // Description of project not quite decided, for now its some exercises.
 public class Main {
-
+    // this is a header
+    // public is an access modifier
+    //void is a return type, meaning this method does not return anything
+    // method names should be in lowerCamelCase and be named with a verb
   public static void main(String[] args) {// special meaning, starting point of a program
     System.out.println("Welcome to my Integration Project");
     System.out.println("\tCheck out some of the excercise by toggling comments!");//escape sequence \t inserts a tab
@@ -15,6 +18,51 @@ public class Main {
     // Double - is a 64 bit IEEE754
     // Char - a single 16 bit unicode character, with a minimum value of '\u0000'(0) and a max value
     // of '\uffff' (65,535)
+    
+
+    double radius = 5.0;
+    double area;
+    area = calculateArea(radius);
+    System.out.println("The area is " + area);
+  }
+
+  
+  public static double calculateArea(double rad) {
+    return Math.PI * rad * rad;
+
+  
+    Bicycle myBike = new Bicycle();
+    myBike.setSpeed(5);
+    System.out.println(myBike.getSpeed());
+  }
+}
+    // this is a set method
+class Bicycle {
+    private int speed;
+    private int cadence;
+    
+    public int getSpeed() {
+        return speed;
+    }
+    //this is a get method
+    public void setSpeed(int s) {
+        speed = s;
+    }
+
+    
+//    double num1 = 5;
+//        //this is a call in parenthesis is an argument 
+//    SquareIt(num1);
+//    public static double squareIt(double n1) {
+//      return n1*n1
+//    }
+    
+//    Car myCar = new Car();
+//    Car kit = new Car();
+//    Car mysteryMachine = new Car();
+    
+//    myCar.setColor("black");
+//    System.out.println(myCar.getColor());
 
 //      int myInt;// declaring a int
 //    long myLong = 99L;// declaring a long variable
@@ -110,6 +158,7 @@ public class Main {
 //     System.out.println(double1+double2);
 //     /* Concatenate and print the string variable son a new line. */
 //     System.out.println(string1+string2);
+    
 
   }
   // }
@@ -117,6 +166,11 @@ public class Main {
   // fields
   // private int angleOfHourHand;
   // private int angleOfMinuteHand;
+
+    private static void SquareIt(double num1) {
+      // TODO Auto-generated method stub
+      
+    }
 
   // methods
   // public void tellTime() {
