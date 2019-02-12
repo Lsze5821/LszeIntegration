@@ -36,7 +36,7 @@ public class Main {
     System.out.println(myBike.getSpeed());
   }
 }
-    // this is a set method
+    // this is a set method 
 class Bicycle {
     private int speed;
     private int cadence;
