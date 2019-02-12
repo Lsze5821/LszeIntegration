@@ -28,7 +28,7 @@ public class Main {
 
   
   public static double calculateArea(double rad) {
-    return Math.PI * rad * rad;
+    return Math.PI * rad * rad;//returns
 
   
     Bicycle myBike = new Bicycle();
