@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
+// Louis Sze
 public class Tests1 {
   public static void main(String args[]) {
     String greet1 = "Hello";
@@ -54,10 +55,10 @@ public class Tests1 {
         switch (letter) {
           case 90:
             System.out.println("A");
-            break;//break after the condition as met
+            break;// break after the condition as met
           case 80:
             System.out.println("B");
-            break;//breaks after the condition as met
+            break;// breaks after the condition as met
           case 70:
             System.out.println("C");
             break;
@@ -68,7 +69,7 @@ public class Tests1 {
         }
         // Write your code here
 
-       grade.close();
+        // grade.close();
       }
 
     }
