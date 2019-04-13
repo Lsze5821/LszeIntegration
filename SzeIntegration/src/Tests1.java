@@ -12,8 +12,8 @@ public class Tests1 {
   private static final Scanner scanner = new Scanner(System.in);
 
   public void Test1() {
-    System.out.println("Temp psi2");
-
+    System.out.println("Temp PSI2");
+    System.out.println("Enter Int to determine weird or not weird.");
     int N = scanner.nextInt();
     scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
     if (20 < N && N % 2 == 0) { // parameters in the parenthesis or condition of a for loop
@@ -68,7 +68,7 @@ public class Tests1 {
         }
         // Write your code here
 
-      //  scanner.close();
+       grade.close();
       }
 
     }
