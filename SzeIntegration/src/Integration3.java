@@ -2,7 +2,7 @@
 public class Integration3 {
   class Animal {
     private String species;
-    private String bloodType;
+    private String bloodType;//private 
     
     public String getSpecies() {
       return species;
