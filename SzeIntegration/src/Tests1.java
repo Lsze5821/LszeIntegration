@@ -3,7 +3,7 @@ import java.util.Random;
 
 // Louis Sze
 public class Tests1 {
-  public static void main(String args[]) {
+  public static void test1(String args[]) {
     String greet1 = "Hello";
     String greet2 = "World";
     String message2 = greet1 + " " + greet2;
