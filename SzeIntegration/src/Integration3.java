@@ -1,23 +1,30 @@
 
 public class Integration3 {
-  class Animal {
-    private String species;
-    private String bloodType;//private 
+  
+  public class DeckOfCard {
+    private String suits;
+    private String number;
     
-    public String getSpecies() {
-      return species;
+    public DeckOfCard() {
+      this(0.0);
     }
-
-    public void setSpecies(String species) {
-      this.species = species;
+    public DeckOfCard(double d) {
+      this(d,0);
     }
-
-    public String getBloodType() {
-      return bloodType;
+    public DeckOfCard(double d, int i) {
+     
     }
-
-    public void setBloodType(String bloodType) {
-      this.bloodType = bloodType;
+    public String getSuits() {
+      return suits;
+    }
+    public void setSuits(String suits) {
+      this.suits = suits;
+    }
+    public String getNumber() {
+      return number;
+    }
+    public void setNumber(String number) {
+      this.number = number;
     }
 
   }
