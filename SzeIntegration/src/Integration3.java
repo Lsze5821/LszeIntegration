@@ -24,7 +24,7 @@ public class Integration3 {
       return number;
     }
     public void setNumber(String number) {
-      this.number = number;
+      this.number = number;//editted
     }
 
   }
