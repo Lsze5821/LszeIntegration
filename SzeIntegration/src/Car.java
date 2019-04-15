@@ -1,6 +1,6 @@
 
 public class Car {
-//louis Sze
+//Louis Sze
   private String color;// private class
   private String make;// private class
 
