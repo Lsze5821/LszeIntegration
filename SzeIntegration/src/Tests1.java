@@ -50,11 +50,12 @@ public class Tests1 {
       number = 1 + randomGen.nextInt(53);
       System.out.println(number);
 
-      Scanner grade = new Scanner(System.in);
+      //Scanner grade = new Scanner(System.in);
+      int grade=random.nextInt();
       System.out.println("Enter grade rounded to nearest 10.");
-      int letter = (grade.nextInt());
+      //int letter = (grade.nextInt());
       {
-        switch (letter) {
+        switch (grade) {
           case 100:
             System.out.println("A+");
             break;
@@ -74,7 +75,7 @@ public class Tests1 {
         }
         // Write your code here
 
-        // grade.close();
+         //random.close();
       }
 
     }

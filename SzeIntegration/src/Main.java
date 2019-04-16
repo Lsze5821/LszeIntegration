@@ -17,7 +17,7 @@ public class Main {
 
    
 
-  /*  Card myCard = new Card();
+    Card myCard = new Card(0, 0);
     myCard.setSuit("Clubs");
     System.out.println(myCard.getSuit());
     myCard.draw();
@@ -33,7 +33,7 @@ public class Main {
   public static double calculateArea(double rad) {
     return Math.PI * rad * rad;// returns
   }
-*/
+
 
 
 //// this is a set method
@@ -158,6 +158,6 @@ public class Main {
 //  System.out.println(string1+string2);
 
 }
-}
+//}
 
 // Going to number from string clear out the buffer
