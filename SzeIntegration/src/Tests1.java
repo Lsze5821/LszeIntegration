@@ -14,17 +14,19 @@ public class Tests1 {
 
   public void Test1() {
     System.out.println("Temp PSI2");
-    System.out.println("Enter Int to determine weird or not weird.");
+    System.out.println("Enter Int to see if its wierd.");
     int N = scanner.nextInt();
     scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
     if (20 < N && N % 2 == 0) { // parameters in the parenthesis or condition of a for loop
       System.out.println("Not Weird");
-    } else if (2 <= N && N <= 5 && N % 2 == 0) {// if else construct,condition if N is greater than
-                                                // equal to 2 and less than equal to 5 and if its
-                                                // even then this loop runs and prints not weird.
+    } else if (2 <= N && N <= 5 && N % 2 == 0) {/* if else construct,condition if N is greater than
+                                                 * equal to 2 and less than equal to 5 and if its
+                                                 * even then this loop runs and prints not weird.
+                                                 */
       System.out.println("Not Weird");
-    } else if (6 <= N && N <= 20 && N % 2 == 0) {// even statement using divisible by 2 is equal to
-                                                 // 0
+    } else if (6 <= N && N <= 20 && N % 2 == 0) {// even statement using divisible by 2 is equal to 0
+                                                 
+                                                 
       System.out.println("Weird");
     } else if (N % 2 == 1) {// odd statement using divisible by 2 equal to 1
       System.out.println("Weird");
@@ -53,6 +55,9 @@ public class Tests1 {
       int letter = (grade.nextInt());
       {
         switch (letter) {
+          case 100:
+            System.out.println("A+");
+            break;
           case 90:
             System.out.println("A");
             break;// break after the condition as met

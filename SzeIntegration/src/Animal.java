@@ -9,6 +9,14 @@ public class Animal {
   void walk() {// animal actions also method
     System.out.println("Foot steps");// prints out walk
   }
+
+  public void Action() {
+    System.out.println("Dogs extending from animal");
+    Dog dog = new Dog();// assigning dog
+    dog.walk();
+    dog.bark();
+    
+  }
 }
 
 
@@ -16,10 +24,12 @@ class Dog extends Animal {// dog extends animal which means it contains method f
   void bark() {
     System.out.println("Barf-Barf");// prints out the dog action dog
   }
-
-  public static void Action(String args[]) {
+public void Action() {
+    System.out.println("Dogs extending from animal");
     Dog dog = new Dog();// assigning dog
     dog.walk();
     dog.bark();
+    
   }
+  
 }
